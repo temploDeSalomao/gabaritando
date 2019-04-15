@@ -19,12 +19,15 @@
         
       <div id="containerHeader" class="col-xs-12 col-md-12 hidden-xs">
         <div class="logo">
+          <a href="./">
+            
           <img src="<?=get_template_directory_uri()?>/assets/images/logo/logo.png" alt="">
+          </a>
         </div>
         <!-- Desktop -->
         <div class="outerMenuDesk ">
           <nav class="cliArea">
-            <a href="#">
+            <a href="https://gabaritando.myedools.com/users/sign_in ">
               <i class="fa fa-user-circle"></i><span>Área do Cliente</span>
             </a>
           </nav>
@@ -33,16 +36,16 @@
               <li><a href="">Diferenciais</a></li>
               <li><a href="">Depoimentos</a></li>
               <li><a href="">Planos e Preços</a></li>
-              <li><a href="">Professores</a></li>
+              <li><a href="http://eugabaritandoenem.com.br/#opniao">Professores</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Contato</a></li>
             </ul>
             <ul class="sociais">
               <li>
-                <a href=""><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+                <a href="https://facebook.com/eugabaritandoenem"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
               </li>
-              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"> </i></a></li>
-              <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"> </i></a></li>
+              <li><a href="https://www.instagram.com/eugabaritandoenem/"><i class="fa fa-instagram" aria-hidden="true"> </i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCoHdAfpgOR-5oBUujXYjyhg"><i class="fa fa-youtube-play" aria-hidden="true"> </i></a></li>
             </ul>
           </nav>
         </div>
@@ -64,12 +67,12 @@
             <span class="menu-title">
             </span>
             <ul>
-              <li>Diferenciais</li>
-              <li>Depoimentos</li>
-              <li>Planos e preços</li>
-              <li>Professores</li>
-              <li>Blog</li>
-              <li>Contato</li>
+              <li><a href="#">Diferenciais</a></li>
+              <li><a href="#">Depoimentos</a></li>
+              <li><a href="#">Planos e preços</a></li>
+              <li><a href="#">Professores</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contato</a></li>
             </ul>
           </nav>
       </div>

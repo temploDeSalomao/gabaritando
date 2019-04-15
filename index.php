@@ -1,6 +1,8 @@
 <?php
 	get_header();
 ?>
+
+<!--  First i have created  everything dynamic, so when im go to deploy have growed a lot of new s**t's. Later i need to deep clean these part -->
 <main>
 	<div class="container">
 		<section class="first-section">
@@ -158,12 +160,12 @@
 </div>
 <div class="content-reviews hidden-sm">
 	<!-- o qu dizem sobre nos -->
-	<div class="container">
+	<div class="container container-reviews">
 		<?php
 					$args =array(
 					'posts_per_page'   => 3,
 					'orderby'          => 'date',
-					'order'            => 'ASC',
+					'order'            => 'DESC',
 					'post_type'        => 'avaliacao',
 					'post_status'      => 'publish'
 					);
@@ -241,10 +243,10 @@
 	<div class="main-ticket">
 		<div class="title-img">
 			<img class="hidden-sm" src="<?=get_template_directory_uri()?>/assets/images/titulos/planos&preços.png" alt="Nossos Planos e Preços" title="Nossos Planos e Preços">
-			<span class="title">
+			<span class="title hidden-md">
 				Confira Nossos
 			</span>
-			<span class="sub-title">Preços e Planos </span>
+			<span class="sub-title hidden-md">Preços e Planos </span>
 		</div>
 		<div class="container-ticket hidden-sm">
 			<div class="col-xs-12 col-md-3 outer-ticket">
@@ -264,7 +266,7 @@
 					</ul>
 					<div class="price">
 						<span>por apenas:</span>
-						<p class="last-price blue">R$ 29,00</p>
+						<p class="last-price blue">R$ 48,00</p>
 					</div>
 				</div>
 				<a href="#" class="btn rounded green uppercase center">compre agora</a>
@@ -289,7 +291,7 @@
 					</ul>
 					<div class="price">
 						<span>por apenas:</span>
-						<p class="last-price blue">R$ 32,00</p>
+						<p class="last-price blue">R$ 64,00</p>
 					</div>
 				</div>
 				<a href="#" class="btn rounded green uppercase center">compre agora</a>
@@ -314,9 +316,9 @@
 						<div class="inline">
 							<b>12x&nbsp;</b>
 							de&nbsp;
-							<p class="last-price blue">R$ 16,90</p>
+							<p class="last-price blue">R$ 28,16</p>
 						</div>
-						<span>ou <b>R$ 169,00</b> a vista</span>
+						<span>ou <b>R$ 338,00</b> a vista</span>
 					</div>
 				</div>
 				<a href="#" class="btn rounded green uppercase center">compre agora</a>
@@ -344,9 +346,9 @@
 						<div class="inline">
 							<b>12x&nbsp;</b>
 							de&nbsp;
-							<p class="last-price blue">R$ 20,90</p>
+							<p class="last-price blue">R$ 34,83</p>
 						</div>
-						<span>ou <b>R$ 209,00</b> a vista</span>
+						<span>ou <b>R$ 418,00</b> a vista</span>
 					</div>
 				</div>
 				<a href="#" class="btn rounded green uppercase center">compre agora</a>

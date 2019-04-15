@@ -622,7 +622,7 @@ main {
                 justify-content: center;
                 align-items: center;
                 width: 100%;
-                height: 250px;
+                height: 300px;
                 padding: 15px;
             }
             .out-review {
@@ -653,7 +653,14 @@ main {
                     }
                 }
             }
+
         }
+
+        .container-reviews{
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
+            }
     }
     .ourPlans {
         background: url($imageDir + "background/bg_lousa.jpg") no-repeat;
@@ -715,7 +722,7 @@ main {
                 flex-direction: column;
                 background-size: 100% 100% !important;
                 background-position: center !important;
-                min-height: 600px;
+                min-height: 620px;
                 padding: 35px 20px;
                 .ticket-title {
                     font-size: 20px;
@@ -976,6 +983,7 @@ main {
                 width: 100%;
                 padding: 10px;
                 margin-bottom: 20px;
+                align-self: center;
                 &:after {
                     content: '';
                     width: 220px;
@@ -1125,13 +1133,13 @@ main {
                             align-self: flex-end;
                             &:after {
                                 content: "\f1d8";
-                                font-family: 'font-awesome';
+                                font-family: 'FontAwesome';
                                 width: 10px;
                                 height: 10px;
                                 background-size: cover;
                                 position: absolute;
                                 right: 15px;
-                                bottom: 8.55555px;
+                                bottom: 11px;
                                 display: flex;
                             }
                         }
