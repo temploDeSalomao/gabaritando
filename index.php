@@ -196,10 +196,10 @@
 					<div class="col-xs-12 col-md-4 out-review">
 						<div class="data-review ballon">Minha experiência com o curso gabaritando Enem está sendo incrível, ainda mais pelo fato de ser um curso online que posso realizar na minha própria casa. A didática de estudos superou minhas expectativas por ser bem dinâmica e dar todo suporte necessário ao aluno. Estou muito feliz com a oportunidade e sentido que estarei preparada para os vestibulares</div>
 						<div class="author">
-							<img src="<?=get_the_post_thumbnail_url()?>" alt="avatar">
+							<img src="http://eugabaritandoenem.com.br/new-land/wp-content/uploads/2019/04/AVATA.jpg" alt="avatar">
 							<div class="about-author">
-								<p class="name"><?=the_title()?></p>
-								<p class="ocuppation"><?=get_field('cargo')?></p>
+								<p class="name">Fernanda Lobo de Cerqueira</p>
+								<p class="ocuppation">Ex aluna Gabaritando</p>
 							</div>
 						</div>
 					</div>
@@ -208,12 +208,12 @@
 			<div class="swiper-slide">
 				<div class="container">
 					<div class="col-xs-12 col-md-4 out-review">
-						<div class="data-review ballon"><?=$post->post_content?></div>
+						<div class="data-review ballon">Professores incríveis, aulas didáticas e de fácil acesso!</div>
 						<div class="author">
-							<img src="<?=get_the_post_thumbnail_url()?>" alt="avatar">
+							<img src="http://127.0.0.1/wordpress/gabaritando/wp-content/uploads/2019/04/AVATA_2.jpg" alt="avatar">
 							<div class="about-author">
 								<p class="name"><?=the_title()?></p>
-								<p class="ocuppation"><?=get_field('cargo')?></p>
+								<p class="ocuppation">Ex aluna Gabaritando</p>
 							</div>
 						</div>
 					</div>
@@ -222,12 +222,12 @@
 			<div class="swiper-slide">
 				<div class="container">
 					<div class="col-xs-12 col-md-4 out-review">
-						<div class="data-review ballon"><?=$post->post_content?></div>
+						<div class="data-review ballon">O curso do Gabaritando conta com uma equipe de professores muito boa; os conteúdos são bem organizados e planejados. As aulas são dinâmicas, objetivas e possuem resolução de exercícios, o que considero essencial para entender como o conteúdo é cobrado nos vestibulares.</div>
 						<div class="author">
-							<img src="<?=get_the_post_thumbnail_url()?>" alt="avatar">
+							<img src="http://127.0.0.1/wordpress/gabaritando/wp-content/uploads/2019/04/AVATA.jpg" alt="avatar">
 							<div class="about-author">
-								<p class="name"><?=the_title()?></p>
-								<p class="ocuppation"><?=get_field('cargo')?></p>
+								<p class="name">Louisi Manica</p>
+								<p class="ocuppation">Ex aluna Gabaritando</p>
 							</div>
 						</div>
 					</div>
@@ -375,7 +375,7 @@
 							</ul>
 							<div class="price">
 								<span>por apenas:</span>
-								<p class="last-price blue">R$ 29,00</p>
+								<p class="last-price blue">R$ 48,00</p>
 							</div>
 						</div>
 						<a href="#" class="btn rounded green uppercase center">compre agora</a>
