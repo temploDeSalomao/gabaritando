@@ -1,0 +1,23 @@
+{
+  "name": "vitor_automates",
+  "version": "1.0.0",
+  "description": "created to be smart",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-watch": "^5.0.1",
+    "requirejs": "^2.3.6",
+    "swiper": "^4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vitor lima",
+  "license": "ISC"
+}

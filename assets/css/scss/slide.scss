@@ -1,0 +1,103 @@
+// Slide da home
+#slideHome {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    .slide{
+        position: relative;
+        .bg-slide{
+            width: 100vw;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: -2;
+        }
+    }
+    .slide.model-1 {
+        margin-top: 60px;
+        h2 {
+            font-size: 70px;
+            color: #fff;
+            line-height: 80px;
+            font-weight: 400;
+            b {
+                font-size: 80px;
+                line-height: 80px;
+            }
+        }
+        ul {
+            display: flex;
+            flex-flow: column wrap;
+            margin-left: 25px;
+            li {
+                color: #46bfa8;
+                font-size: 25px;
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .controller {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 70px;
+        justify-content: space-around;
+        margin: 100px 0 50px;
+        .control {
+            display: flex;
+            width: 25px;
+            height: 25px;
+            background: #fff;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            text-decoration: none;
+            color: #333;
+            font-weight: bolder;
+        }
+    }
+}
+
+
+// <section id="slideHome">
+      //   <div class="container">
+      //     <div class="swiper-container">
+      //       <div class="swiper-wrapper">
+      //         <div class="slide model-1 swiper-slide ">
+      //           <h2>Estude pelo<br> <b>Computador, <br> Celular ou Tablet </b></h2>
+      //           <ul>
+      //             <li><span><b>03</b> novos vídeos por semana;</span></li>
+      //             <li><span><b>05</b> monitorias;</span></li>
+      //             <li><span><b>05</b> simulados por mês!</span></li>
+      //           </ul>
+      //           <div class="controller">
+      //             <div class="control left " data-direction="left" >&lt;</div>
+      //             <div class="control right"  data-direction="right" >&gt;</div>
+      //           </div>
+      //         </div>
+      //         <div class="slide model-2 swiper-slide ">
+      //           <div class="outer-slide">
+      //             <span class="slide-title">Oportunidade Incrível</span>
+                  
+      //           </div>
+      //           <div class="controller">
+      //             <div class="control left " data-direction="left" >&lt;</div>
+      //             <div class="control right"  data-direction="right" >&gt;</div>
+      //           </div>
+      //         </div>
+      //         <div class="slide model-2 swiper-slide ">
+      //           <div class="outer-slide">
+      //             <span class="slide-title">Oportunidade Incrível</span>
+                  
+      //           </div>
+      //           <div class="controller">
+      //             <div class="control left " data-direction="left" >&lt;</div>
+      //             <div class="control right"  data-direction="right" >&gt;</div>
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </section>
