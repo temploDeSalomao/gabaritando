@@ -46,6 +46,10 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="fast-actions">
+		
+	</div>
 </footer>
 <script src="<?=get_template_directory_uri()?>/assets/js/libs/jquery.js"></script>
 <script src="<?=get_template_directory_uri()?>/assets/js/libs/inactive-plugin.js"></script>

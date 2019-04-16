@@ -6,10 +6,7 @@
 	<div class="container">
 		<section class="first-section">
 			<header>
-				<h1 class="title blue">Gabaritando</h1>
-				<span class="shadow-header"></span>
-				<div class="arrowLeft"></div>
-				<h2 class="sub-title gray answer">Porque estudar com a </h2>
+				<img src="<?=get_template_directory_uri()?>/assets/images/titulos/porQagabaritando.png" alt="">
 			</header>
 			<div class="col-xs-12 col-md-12 hidden-sm front-panel">
 				<?php
@@ -152,10 +149,8 @@
 <div class="reviews">
 <div class="container">
 	<div class="title-aboutUs">
-		<p class="sub-title gray">O que dizem</p>
-		<div class="inline">
-			<p class="title blue"> Sobre Nós!?</p>
-		</div>
+		<img src="<?=get_template_directory_uri()?>/assets/images/titulos/AboutUs.png" alt="">
+		
 	</div>
 </div>
 <div class="content-reviews hidden-sm">
@@ -476,11 +471,10 @@
 </div>
 </div>
 <div class="ourTeachers">
-<div class="container">
+<div class="container-fluid">
 	<section>
 		<header>
-			<h2 class="sub-title">Conheça Nossos</h2>
-			<h3 class="title blue">Profess<span class="apple-letter"></span>res</h3>
+			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourTeachers.png" alt="">
 		</header>
 		<nav class="container-square col-md-12">
 			<ul class="">
@@ -518,7 +512,7 @@
 <div class="container">
 	<section class="col-sm-12 col-md-8">
 		<header>
-			<h2>Gabaritando <b>News</b></h2>
+			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourNews.png" alt="">
 		</header>
 		<div>
 			

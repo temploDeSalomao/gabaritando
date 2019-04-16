@@ -16,12 +16,12 @@
   </head>
   <body>
     <header class="main-header" >
-        
+      
       <div id="containerHeader" class="col-xs-12 col-md-12 hidden-xs">
         <div class="logo">
           <a href="./">
             
-          <img src="<?=get_template_directory_uri()?>/assets/images/logo/logo.png" alt="">
+            <img src="<?=get_template_directory_uri()?>/assets/images/logo/logo.png" alt="">
           </a>
         </div>
         <!-- Desktop -->
@@ -50,8 +50,9 @@
           </nav>
         </div>
       </div>
-            <div class="menu-mobile hidden-md">
-              <div class="overlay"></div>
+      <!-- Mobile -->
+      <div class="menu-mobile hidden-md">
+        <div class="overlay"></div>
         <div class="header-menu">
           <div class="logo">
             <img src="<?=get_template_directory_uri()?>/assets/images/logo/logo-gabaritando-mobile.jpg" alt="logo gabaritando">
@@ -62,19 +63,18 @@
             <div class="burger-item"></div>
           </div>
         </div>
-        
-          <nav class="master-content-menu-mobile">
-            <span class="menu-title">
-            </span>
-            <ul>
-              <li><a href="#">Diferenciais</a></li>
-              <li><a href="#">Depoimentos</a></li>
-              <li><a href="#">Planos e preços</a></li>
-              <li><a href="#">Professores</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </nav>
+        <nav class="master-content-menu-mobile">
+          <span class="menu-title">
+          </span>
+          <ul>
+            <li><a href="#">Diferenciais</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Planos e preços</a></li>
+            <li><a href="http://eugabaritandoenem.com.br/#opniao">Professores</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
       </div>
       <section id="slideHome">
         <div class="container">
@@ -82,26 +82,26 @@
             <div class="swiper-wrapper">
               <div class="slide model-1 swiper-slide ">
                 <span class="title">Estude pelo<br> <b class="ye
-                  llow">Computador, <br> Celular ou Tablet </b></span>
+                llow">Computador, <br> Celular ou Tablet </b></span>
                 <ul>
                   <li><span><b class="yellow">03</b> novos vídeos por semana;</span></li>
                   <li><span><b class="yellow">05</b> monitorias;</span></li>
                   <li><span><b class="yellow">05</b> simulados por mês!</span></li>
                 </ul>
                 <div class="controller">
-                  <div class="control left banner" data-direction="left" data-current-slide="0" >&lt;</div>
-                  <div class="control right banner"  data-direction="right" data-current-slide="0" >&gt;</div>
+                  <div class="control left banner" data-direction="left" data-current-slide="0" ><i class="fa fa-chevron-left"> </i></div>
+                  <div class="control right banner"  data-direction="right" data-current-slide="0" ><i class="fa fa-chevron-right"></i></div>
                 </div>
               </div>
               <div class="slide model-2 swiper-slide ">
                 <div class="outer-slide">
                   <div class="box-slide-model">
-                      <img src="<?=get_template_directory_uri()?>/assets/images/titulos/50.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/titulos/50.png" alt="">
                   </div>
                 </div>
-               <div class="controller">
-                  <div class="control left banner" data-direction="left" data-current-slide="0" >&lt;</div>
-                  <div class="control right banner"  data-direction="right" data-current-slide="0" >&gt;</div>
+                <div class="controller">
+                  <div class="control left banner" data-direction="left" data-current-slide="0" ><i class="fa fa-chevron-left"> </i></div>
+                  <div class="control right banner"  data-direction="right" data-current-slide="0" ><i class="fa fa-chevron-right"></i></div>
                 </div>
               </div>
             </div>

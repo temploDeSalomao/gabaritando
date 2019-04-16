@@ -2,7 +2,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
 
 @media (min-width: 990px) and (max-width: 1600px) {
     .logo {
-        width: 80%;
+        width: 850px;
         display: flex;
     }
     img {
@@ -11,18 +11,26 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     #containerHeader {
         .outerMenuDesk {
             .menu {
+                left: 0;
                 ul {
                     &.main {
                         margin-left: -90px;
                         width: 100%;
                         li {
-                            padding: 0 10px;
+                            padding: 0 20px;
                             a {
                                 font-size: 14px;
                             }
                         }
                     }
                 }
+                ul.sociais{
+                    margin-left: 0;
+                }
+            }
+            .cliArea{
+                width: 185px;
+                margin-right: 0;
             }
         }
     }
@@ -50,6 +58,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     #slideHome {
         max-width: 100vw;
         margin-top: 80px;
+
         .controller {
             margin: 70px 0;
         }
@@ -138,6 +147,11 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
             }
         }
         .ourTeachers {
+            header{
+                .container-fluid{
+                    width: 100%;
+                }
+            }
             section {
                 header {
                     width: 100%;
@@ -343,6 +357,9 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
             }
         }
         .ourNews {
+            .container-ourNews{
+                width: 100%;
+            }
             background-size: cover;
             padding: 70px 0;
             section.col-sm-12 {
