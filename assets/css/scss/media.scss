@@ -34,6 +34,21 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
             }
         }
     }
+
+
+    main {
+        .ourTeachers{
+            .container-square{
+                ul{
+                    .square{
+                        &:after{
+                            background-size: 90% 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 990px) {

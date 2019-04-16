@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/min/media.css">
   </head>
   <body>
-    <header class="main-header" >
-      
+    <header class="main-header">
       <div id="containerHeader" class="col-xs-12 col-md-12 hidden-xs">
         <div class="logo">
           <a href="./">

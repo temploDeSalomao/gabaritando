@@ -8,9 +8,11 @@ function isMobileDevice() {
 };
 
     $('.control').click(function() {
-        let currentSlide = $('.swiper-slide-active  .control').data('current-slide');
+        let currentSlide = $('.swiper-slide-active').data('swiper-slide-index');
+        console.log(currentSlide);
 
-        if(isMobileDevice() == true){
+        if(isMobileDevice() != true){
+            console.log(0);
             changeBg(currentSlide);
         }
     });
@@ -19,6 +21,7 @@ function isMobileDevice() {
         $('.main-header').css({
             'background-image': 'url(' + imageDir + images[i] + ')',
         });
+        console.log('entrei na função');
     }
 
     $(window).scroll(function(){
