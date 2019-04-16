@@ -78,7 +78,7 @@
       </div>
       <section id="slideHome">
         <div class="container">
-          <div class="swiper-container">
+          <div class="swiper-container swiper_banner">
             <div class="swiper-wrapper">
               <div class="slide model-1 swiper-slide ">
                 <span class="title">Estude pelo<br> <b class="ye
@@ -89,8 +89,8 @@
                   <li><span><b class="yellow">05</b> simulados por mês!</span></li>
                 </ul>
                 <div class="controller">
-                  <div class="control left" data-direction="left" data-current-slide="0" >&lt;</div>
-                  <div class="control right"  data-direction="right" data-current-slide="0" >&gt;</div>
+                  <div class="control left banner" data-direction="left" data-current-slide="0" >&lt;</div>
+                  <div class="control right banner"  data-direction="right" data-current-slide="0" >&gt;</div>
                 </div>
               </div>
               <div class="slide model-2 swiper-slide ">
@@ -99,9 +99,9 @@
                       <img src="<?=get_template_directory_uri()?>/assets/images/titulos/50.png" alt="">
                   </div>
                 </div>
-                <div class="controller">
-                  <div class="control left " data-direction="left" data-current-slide="1"  >&lt;</div>
-                  <div class="control right"  data-direction="right" data-current-slide="1"  >&gt;</div>
+               <div class="controller">
+                  <div class="control left banner" data-direction="left" data-current-slide="0" >&lt;</div>
+                  <div class="control right banner"  data-direction="right" data-current-slide="0" >&gt;</div>
                 </div>
               </div>
             </div>

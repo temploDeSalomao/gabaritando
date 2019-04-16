@@ -50,47 +50,6 @@
 <script src="<?=get_template_directory_uri()?>/assets/js/libs/jquery.js"></script>
 <script src="<?=get_template_directory_uri()?>/assets/js/libs/inactive-plugin.js"></script>
 <script src="<?=get_template_directory_uri()?>/assets/js/libs/swiper.min.js"></script>
-<script>
-var mySwiper = new Swiper ('.swiper-container', {
-	// Optional parameters
-	direction: 'horizontal',
-	loop: true,
-	navigation: {
-		nextEl: '.control.left',
-		prevEl: '.control.right',
-		sliderDrag:false
-	},
-	
-	onlyExternal: true,
-});
-let swiperFrontPanel = new Swiper('.pagination-mobile',{
-pagination: {
-el: '.swiper-pagination',
-clickable: true,
-},
-});
-let swiperFrontAbout = new Swiper('.swiper-container',{
-pagination: {
-el: '.swiper-pagination-review',
-clickable: true,
-touchEventsTarget:'wrapper',
-hashnav: true,
-pagination: '.swiper-pagination',
-paginationClickable: true,
-
-},
-});
-let swiperFrontTicket = new Swiper('.swiper-container-ticket',{
-pagination: {
-el: '.swiper-pagination-ticket',
-clickable: true,
-},
-});
-let swiperFrontNews = new Swiper('.swiper-container-news',{
-pagination: {
-el: '.swiper-pagination-news',
-clickable: true,
-},
-});
-</script></body>
+<script src="<?=get_template_directory_uri()?>/assets/js/min/app.js"></script>
+</body>
 </html>

@@ -1,7 +1,6 @@
 <?php
 	get_header();
 ?>
-
 <!--  First i have created  everything dynamic, so when im go to deploy have growed a lot of new s**t's. Later i need to deep clean these part -->
 <main>
 	<div class="container">
@@ -38,7 +37,7 @@
 				}
 				?>
 			</div>
-			<div class="front-panel mobile hidden-md col-sm-12 pagination-mobile swiper-container">
+			<div class="front-panel mobile hidden-md col-sm-12 pagination-mobile swiper-container swiper-panel">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="col-sm-6">
@@ -140,6 +139,7 @@
 							</article>
 						</div>
 					</div>
+					<div class="swiper-pagination-panel"></div>
 				</div>
 				
 			</div>
@@ -189,52 +189,31 @@
 	</div>
 </div>
 <div class="content-reviews mobile hidden-md">
-	<div class="swiper-container">
+	<div class="swiper-container swiper-review">
 		<div class="swiper-wrapper">
+			<?php
+			foreach ($posts as $post ) {
+			?>
 			<div class="swiper-slide">
 				<div class="container">
 					<div class="col-xs-12 col-md-4 out-review">
-						<div class="data-review ballon">Minha experiência com o curso gabaritando Enem está sendo incrível, ainda mais pelo fato de ser um curso online que posso realizar na minha própria casa. A didática de estudos superou minhas expectativas por ser bem dinâmica e dar todo suporte necessário ao aluno. Estou muito feliz com a oportunidade e sentido que estarei preparada para os vestibulares</div>
+						<div class="data-review ballon"><?=$post->post_content?></div>
 						<div class="author">
-							<img src="http://eugabaritandoenem.com.br/new-land/wp-content/uploads/2019/04/AVATA.jpg" alt="avatar">
+							<img src="<?=get_the_post_thumbnail_url()?>" alt="avatar">
 							<div class="about-author">
-								<p class="name">Fernanda Lobo de Cerqueira</p>
-								<p class="ocuppation">Ex aluna Gabaritando</p>
+								<p class="name"><?= the_title()?></p>
+								<p class="ocuppation"><?=get_field('cargo')?></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="swiper-slide">
-				<div class="container">
-					<div class="col-xs-12 col-md-4 out-review">
-						<div class="data-review ballon">Professores incríveis, aulas didáticas e de fácil acesso!</div>
-						<div class="author">
-							<img src="http://127.0.0.1/wordpress/gabaritando/wp-content/uploads/2019/04/AVATA_2.jpg" alt="avatar">
-							<div class="about-author">
-								<p class="name"><?=the_title()?></p>
-								<p class="ocuppation">Ex aluna Gabaritando</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<div class="container">
-					<div class="col-xs-12 col-md-4 out-review">
-						<div class="data-review ballon">O curso do Gabaritando conta com uma equipe de professores muito boa; os conteúdos são bem organizados e planejados. As aulas são dinâmicas, objetivas e possuem resolução de exercícios, o que considero essencial para entender como o conteúdo é cobrado nos vestibulares.</div>
-						<div class="author">
-							<img src="http://127.0.0.1/wordpress/gabaritando/wp-content/uploads/2019/04/AVATA.jpg" alt="avatar">
-							<div class="about-author">
-								<p class="name">Louisi Manica</p>
-								<p class="ocuppation">Ex aluna Gabaritando</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php
+			}
+			?>
 		</div>
 		<div class="swiper-pagination-review"></div>
+		
 	</div>
 </div>
 </div>
@@ -266,10 +245,10 @@
 					</ul>
 					<div class="price">
 						<span>por apenas:</span>
-						<p class="last-price blue">R$ 48,00</p>
+						<p class="last-price blue">R$ 58,00</p>
 					</div>
 				</div>
-				<a href="#" class="btn rounded green uppercase center">compre agora</a>
+				<a href="https://gabaritando.myedools.com/enem-completo" class="btn rounded green uppercase center">compre agora</a>
 			</div>
 			<div class="col-xs-12 col-md-3 outer-ticket">
 				<div class=" ticket">
@@ -294,7 +273,7 @@
 						<p class="last-price blue">R$ 64,00</p>
 					</div>
 				</div>
-				<a href="#" class="btn rounded green uppercase center">compre agora</a>
+				<a href="https://gabaritando.myedools.com/enem-completo-plus-mensal" class="btn rounded green uppercase center">compre agora</a>
 			</div>
 			<div class="col-xs-12 col-md-3 outer-ticket">
 				<div class=" ticket">
@@ -321,7 +300,7 @@
 						<span>ou <b>R$ 338,00</b> a vista</span>
 					</div>
 				</div>
-				<a href="#" class="btn rounded green uppercase center">compre agora</a>
+				<a href="https://gabaritando.myedools.com/pacote-anual" class="btn rounded green uppercase center">compre agora</a>
 			</div>
 			<div class="col-xs-12 col-md-3 outer-ticket last">
 				<div class=" ticket">
@@ -351,13 +330,28 @@
 						<span>ou <b>R$ 418,00</b> a vista</span>
 					</div>
 				</div>
-				<a href="#" class="btn rounded green uppercase center">compre agora</a>
+				<a href="https://gabaritando.myedools.com/enem-completo-plus-anual" class="btn rounded green uppercase center">compre agora</a>
 			</div>
 			
 		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<div class="swiper-container-ticket container-ticket hidden-md">
 			<div class="swiper-wrapper">
-				<div class="swiper-item">
+				<div class="swiper-item swiper-slide">
 					<div class="col-xs-12 col-md-3 outer-ticket">
 						<div class="ticket">
 							<p class="ticket-title blue bold">Enem Completo</p>
@@ -378,7 +372,95 @@
 								<p class="last-price blue">R$ 48,00</p>
 							</div>
 						</div>
-						<a href="#" class="btn rounded green uppercase center">compre agora</a>
+						<a href="https://gabaritando.myedools.com/enem-completo" class="btn rounded green uppercase center">compre agora</a>
+					</div>
+				</div>
+				<div class="swiper-item swiper-slide">
+					<div class="col-xs-12 col-md-3 outer-ticket">
+						<div class="ticket">
+									<p class="ticket-title blue bold">Enem Completo</p>
+					<span class="about-ticket"><b>Mensal</b> - Plus</span>
+					<ul>
+						<li><span>Aulas ao vivo;</span></li>
+						<li><span>32 Videoaulas / semana;</span></li>
+						<li><span>Plano de estudo;</span></li>
+						<li><span>Material Didático Semanal;</span></li>
+						<li><span>3 monitorias por semana;</span></li>
+						<li><span>1 Redação corrigida e comentada / mês;</span></li>
+						<li><span>Biblioteca de videoaulas;</span></li>
+						<li><span>Reforço redação;</span></li>
+						<li><span>4 simulados;</span></li>
+						<li><span>Reforço de exercício;</span></li>
+						<li><span>Aprofundamento Exatas e Atualidades;</span></li>
+						<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
+					</ul>
+					<div class="price">
+						<span>por apenas:</span>
+						<p class="last-price blue">R$ 64,00</p>
+					</div>
+						</div>
+						<a href="https://gabaritando.myedools.com/enem-completo-plus-mensal" class="btn rounded green uppercase center">compre agora</a>
+					</div>
+				</div>
+				<div class="swiper-item swiper-slide">
+					<div class="col-xs-12 col-md-3 outer-ticket">
+						<div class="ticket">
+							<p class="ticket-title blue bold">Enem Completo</p>
+					<span class="about-ticket"><b>Anual</b></span>
+					<ul>
+						<li><span>Aulas ao vivo;</span></li>
+						<li><span>32 Videoaulas / semana;</span></li>
+						<li><span>Plano de estudo;</span></li>
+						<li><span>Material Didático Semanal;</span></li>
+						<li><span>3 monitorias por semana;</span></li>
+						<li><span>1 Redação corrigida e comentada / mês;</span></li>
+						<li><span>Biblioteca de videoaulas;</span></li>
+						<li><span>Reforço redação;</span></li>
+						<li><span>4 simulados;</span></li>
+					</ul>
+					<div class="price">
+						<span>por apenas:</span>
+						<div class="inline">
+							<b>12x&nbsp;</b>
+							de&nbsp;
+							<p class="last-price blue">R$ 28,16</p>
+						</div>
+						<span>ou <b>R$ 338,00</b> a vista</span>
+					</div>
+						</div>
+						<a href="https://gabaritando.myedools.com/pacote-anual" class="btn rounded green uppercase center">compre agora</a>
+					</div>
+				</div>
+							<div class="swiper-item swiper-slide">
+					<div class="col-xs-12 col-md-3 outer-ticket">
+						<div class="ticket">
+					<p class="ticket-title blue bold">Enem Completo</p>
+					<span class="about-ticket"><b>Anual</b></span>
+					<ul>
+						<li><span>Aulas ao vivo;</span></li>
+						<li><span>32 Videoaulas / semana;</span></li>
+						<li><span>Plano de estudo;</span></li>
+						<li><span>Material Didático Semanal;</span></li>
+						<li><span>3 monitorias por semana;</span></li>
+						<li><span>1 Redação corrigida e comentada / mês;</span></li>
+						<li><span>Biblioteca de videoaulas;</span></li>
+						<li><span>Reforço redação;</span></li>
+						<li><span>4 simulados;</span></li>
+						<li><span>Reforço de exercício;</span></li>
+						<li><span>Aprofundamento Exatas e Atualidades;</span></li>
+						<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
+					</ul>
+					<div class="price">
+						<span>por apenas:</span>
+						<div class="inline">
+							<b>12x&nbsp;</b>
+							de&nbsp;
+							<p class="last-price blue">R$ 34,83</p>
+						</div>
+						<span>ou <b>R$ 418,00</b> a vista</span>
+					</div>
+						</div>
+						<a href="https://gabaritando.myedools.com/enem-completo-plus-anual" class="btn rounded green uppercase center">compre agora</a>
 					</div>
 				</div>
 			</div>
@@ -473,9 +555,12 @@
 			?>
 		</div>
 		<div class="outer-news mobile hidden-md">
-			<div class="swiper-container-news">
+			<div class="swiper-container swiper-news">
 				<div class="swiper-wrapper">
-					<div class="swiper-item">
+					<?php
+					foreach ($posts as $post ) {
+					?>
+					<div class="swiper-item swiper-slide">
 						<div class="img-news">
 							<img src="<?=get_the_post_thumbnail_url()?>" alt="">
 						</div>
@@ -490,6 +575,9 @@
 							</p>
 						</div>
 					</div>
+					<?php
+					}
+					?>
 					
 				</div>
 				<div class="col-sm-12 hidden-md controlle-mobile swiper-pagination-news">
