@@ -43,3 +43,18 @@ swiper_news = new Swiper('.swiper-news',{
 
 
 
+    $('.burger').click(function(){
+        $('.master-content-menu-mobile').toggleClass('mobile-open');
+
+        if($('.master-content-menu-mobile').hasClass('mobile-open')){
+            $('html,body').addClass('lock-overlay');
+            $('.overlay').addClass('active');
+
+            $('.burger').addClass('transform');
+        }
+        else{
+            $('html,body').removeClass('lock-overlay');
+            $('.burger').removeClass('transform');
+            $('.overlay').removeClass('active');
+        }
+    });

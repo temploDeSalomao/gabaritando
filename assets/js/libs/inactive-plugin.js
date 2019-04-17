@@ -34,19 +34,5 @@ function isMobileDevice() {
         }
     });
 
-    $('.burger').click(function(){
-        $('.master-content-menu-mobile').toggleClass('mobile-open');
 
-        if($('.master-content-menu-mobile').hasClass('mobile-open')){
-            $('html,body').css('overflow','hidden');
-            $('.overlay').addClass('active');
-
-            $('.burger').addClass('transform');
-        }
-        else{
-            $('html,body').css('overflow-y','scroll');
-            $('.burger').removeClass('transform');
-            $('.overlay').removeClass('active');
-        }
-    });
 });

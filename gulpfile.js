@@ -36,8 +36,8 @@ gulp.task('imagemin',function(){
 
 
 gulp.task("watch",function(done){
-	gulp.watch('assets/css/scss',gulp.series('build-css'));
-	gulp.watch('assets/js',gulp.series('build-js'));
+	gulp.watch('assets/css/scss/**/*.scss',gulp.series('build-css'));
+	gulp.watch('assets/js/**/*.js',gulp.series('build-js'));
 	// gulp.watch('assets/images',gulp.series('imagemin'));
 	done();
 })

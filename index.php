@@ -216,11 +216,7 @@
 <div class="container">
 	<div class="main-ticket">
 		<div class="title-img">
-			<img class="hidden-sm" src="<?=get_template_directory_uri()?>/assets/images/titulos/planos&preços.png" alt="Nossos Planos e Preços" title="Nossos Planos e Preços">
-			<span class="title hidden-md">
-				Confira Nossos
-			</span>
-			<span class="sub-title hidden-md">Preços e Planos </span>
+			<img  src="<?=get_template_directory_uri()?>/assets/images/titulos/planos&preços.png" alt="Nossos Planos e Preços" title="Nossos Planos e Preços">
 		</div>
 		<div class="container-ticket hidden-sm">
 			<div class="col-xs-12 col-md-3 outer-ticket">
