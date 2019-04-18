@@ -325,21 +325,6 @@
 			</div>
 			
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<div class="swiper-container-ticket container-ticket hidden-md">
 			<div class="swiper-wrapper">
 				<div class="swiper-item swiper-slide">
@@ -369,26 +354,26 @@
 				<div class="swiper-item swiper-slide">
 					<div class="col-xs-12 col-md-3 outer-ticket">
 						<div class="ticket">
-									<p class="ticket-title blue bold">Enem Completo</p>
-					<span class="about-ticket"><b>Mensal</b> - Plus</span>
-					<ul>
-						<li><span>Aulas ao vivo;</span></li>
-						<li><span>32 Videoaulas / semana;</span></li>
-						<li><span>Plano de estudo;</span></li>
-						<li><span>Material Didático Semanal;</span></li>
-						<li><span>3 monitorias por semana;</span></li>
-						<li><span>1 Redação corrigida e comentada / mês;</span></li>
-						<li><span>Biblioteca de videoaulas;</span></li>
-						<li><span>Reforço redação;</span></li>
-						<li><span>4 simulados;</span></li>
-						<li><span>Reforço de exercício;</span></li>
-						<li><span>Aprofundamento Exatas e Atualidades;</span></li>
-						<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
-					</ul>
-					<div class="price">
-						<span>por apenas:</span>
-						<p class="last-price blue">R$ 64,00</p>
-					</div>
+							<p class="ticket-title blue bold">Enem Completo</p>
+							<span class="about-ticket"><b>Mensal</b> - Plus</span>
+							<ul>
+								<li><span>Aulas ao vivo;</span></li>
+								<li><span>32 Videoaulas / semana;</span></li>
+								<li><span>Plano de estudo;</span></li>
+								<li><span>Material Didático Semanal;</span></li>
+								<li><span>3 monitorias por semana;</span></li>
+								<li><span>1 Redação corrigida e comentada / mês;</span></li>
+								<li><span>Biblioteca de videoaulas;</span></li>
+								<li><span>Reforço redação;</span></li>
+								<li><span>4 simulados;</span></li>
+								<li><span>Reforço de exercício;</span></li>
+								<li><span>Aprofundamento Exatas e Atualidades;</span></li>
+								<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
+							</ul>
+							<div class="price">
+								<span>por apenas:</span>
+								<p class="last-price blue">R$ 64,00</p>
+							</div>
 						</div>
 						<a href="https://gabaritando.myedools.com/enem-completo-plus-mensal" class="btn rounded green uppercase center">compre agora</a>
 					</div>
@@ -397,59 +382,59 @@
 					<div class="col-xs-12 col-md-3 outer-ticket">
 						<div class="ticket">
 							<p class="ticket-title blue bold">Enem Completo</p>
-					<span class="about-ticket"><b>Anual</b></span>
-					<ul>
-						<li><span>Aulas ao vivo;</span></li>
-						<li><span>32 Videoaulas / semana;</span></li>
-						<li><span>Plano de estudo;</span></li>
-						<li><span>Material Didático Semanal;</span></li>
-						<li><span>3 monitorias por semana;</span></li>
-						<li><span>1 Redação corrigida e comentada / mês;</span></li>
-						<li><span>Biblioteca de videoaulas;</span></li>
-						<li><span>Reforço redação;</span></li>
-						<li><span>4 simulados;</span></li>
-					</ul>
-					<div class="price">
-						<span>por apenas:</span>
-						<div class="inline">
-							<b>12x&nbsp;</b>
-							de&nbsp;
-							<p class="last-price blue">R$ 28,16</p>
-						</div>
-						<span>ou <b>R$ 338,00</b> a vista</span>
-					</div>
+							<span class="about-ticket"><b>Anual</b></span>
+							<ul>
+								<li><span>Aulas ao vivo;</span></li>
+								<li><span>32 Videoaulas / semana;</span></li>
+								<li><span>Plano de estudo;</span></li>
+								<li><span>Material Didático Semanal;</span></li>
+								<li><span>3 monitorias por semana;</span></li>
+								<li><span>1 Redação corrigida e comentada / mês;</span></li>
+								<li><span>Biblioteca de videoaulas;</span></li>
+								<li><span>Reforço redação;</span></li>
+								<li><span>4 simulados;</span></li>
+							</ul>
+							<div class="price">
+								<span>por apenas:</span>
+								<div class="inline">
+									<b>12x&nbsp;</b>
+									de&nbsp;
+									<p class="last-price blue">R$ 28,16</p>
+								</div>
+								<span>ou <b>R$ 338,00</b> a vista</span>
+							</div>
 						</div>
 						<a href="https://gabaritando.myedools.com/pacote-anual" class="btn rounded green uppercase center">compre agora</a>
 					</div>
 				</div>
-							<div class="swiper-item swiper-slide">
+				<div class="swiper-item swiper-slide">
 					<div class="col-xs-12 col-md-3 outer-ticket">
 						<div class="ticket">
-					<p class="ticket-title blue bold">Enem Completo</p>
-					<span class="about-ticket"><b>Anual</b></span>
-					<ul>
-						<li><span>Aulas ao vivo;</span></li>
-						<li><span>32 Videoaulas / semana;</span></li>
-						<li><span>Plano de estudo;</span></li>
-						<li><span>Material Didático Semanal;</span></li>
-						<li><span>3 monitorias por semana;</span></li>
-						<li><span>1 Redação corrigida e comentada / mês;</span></li>
-						<li><span>Biblioteca de videoaulas;</span></li>
-						<li><span>Reforço redação;</span></li>
-						<li><span>4 simulados;</span></li>
-						<li><span>Reforço de exercício;</span></li>
-						<li><span>Aprofundamento Exatas e Atualidades;</span></li>
-						<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
-					</ul>
-					<div class="price">
-						<span>por apenas:</span>
-						<div class="inline">
-							<b>12x&nbsp;</b>
-							de&nbsp;
-							<p class="last-price blue">R$ 34,83</p>
-						</div>
-						<span>ou <b>R$ 418,00</b> a vista</span>
-					</div>
+							<p class="ticket-title blue bold">Enem Completo</p>
+							<span class="about-ticket"><b>Anual</b></span>
+							<ul>
+								<li><span>Aulas ao vivo;</span></li>
+								<li><span>32 Videoaulas / semana;</span></li>
+								<li><span>Plano de estudo;</span></li>
+								<li><span>Material Didático Semanal;</span></li>
+								<li><span>3 monitorias por semana;</span></li>
+								<li><span>1 Redação corrigida e comentada / mês;</span></li>
+								<li><span>Biblioteca de videoaulas;</span></li>
+								<li><span>Reforço redação;</span></li>
+								<li><span>4 simulados;</span></li>
+								<li><span>Reforço de exercício;</span></li>
+								<li><span>Aprofundamento Exatas e Atualidades;</span></li>
+								<li><span class="bold gray">Novidade: Exercícios exclusivos;</span></li>
+							</ul>
+							<div class="price">
+								<span>por apenas:</span>
+								<div class="inline">
+									<b>12x&nbsp;</b>
+									de&nbsp;
+									<p class="last-price blue">R$ 34,83</p>
+								</div>
+								<span>ou <b>R$ 418,00</b> a vista</span>
+							</div>
 						</div>
 						<a href="https://gabaritando.myedools.com/enem-completo-plus-anual" class="btn rounded green uppercase center">compre agora</a>
 					</div>
@@ -506,11 +491,11 @@
 </div>
 <div class="ourNews">
 <div class="container">
-	<section class="col-sm-12 col-md-8">
+	<section class="col-sm-12 col-md-9">
 		<header>
 			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourNews.png" alt="">
 		</header>
-		<div>		
+		<div>
 			<?php
 			$args =array(
 				'posts_per_page'   => 3,
@@ -522,7 +507,7 @@
 			$posts = get_posts($args);
 				foreach ($posts as $post ) {
 			?>
-			<div class="outer-news hidden-sm col-md-4">
+			<div class="outer-news hidden-sm col-md-3">
 				<div class="img-news">
 					<img src="<?=get_the_post_thumbnail_url()?>" alt="">
 				</div>
