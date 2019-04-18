@@ -132,14 +132,14 @@
 							</legend>
 							<div class="fields cleared">
 								<form action="">
-									<textarea name="" id=""></textarea>
+									<textarea name="" id="" placeholder="Deixe sua mensagem"></textarea>
 									<label for="" class="fields_name">
-										<input type="text">
+										<input type="text" placeholder="Informe seu nome">
 									</label>
 									<label for="" class="field_tel">
-										<input type="text" />
+										<input type="text" placeholder="Informe seu telefone" />
 									</label>
-									<input type="submit" value="ME LIGUE DEPOIS">
+									<input type="submit" value="ME ENVIE UMA MENSAGEM">
 								</form>
 								<p class="callers">Você já é a <span class="number">5</span> pessoa a solicitar uma ligação.</p>
 							</div>
