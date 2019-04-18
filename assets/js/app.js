@@ -68,9 +68,9 @@ $(window).ready(function() {
         switch ($(this).text()) {
             case 'Diferenciais':
             section=$('.first-section');
-                smooth(section);
             break;
             case 'Depoimentos':
+            section=$('.reviews');
             
             break;
             case 'Professores':
@@ -83,8 +83,9 @@ $(window).ready(function() {
 
             break;
             default:
-               
-                break;
+            break;
+            
+            return smooth(section);
         }
 
 
