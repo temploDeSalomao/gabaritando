@@ -510,10 +510,7 @@
 		<header>
 			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourNews.png" alt="">
 		</header>
-		<div>
-			
-			
-			
+		<div>		
 			<?php
 			$args =array(
 				'posts_per_page'   => 3,
@@ -575,7 +572,6 @@
 			</div>
 			
 		</div>
-		
 	</section>
 	<div class="col-sm-12 col-md-12 hidden-md" >
 		<div class="read-posts">

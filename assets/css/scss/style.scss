@@ -57,22 +57,22 @@ $gray: #6d6e71;
 }
 
 // Overlay menu burger
-.overlay{
-
+.overlay {
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     width: 100vw;
     height: 100vh;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.5);
-
-
-&.active {
+    visibility: hidden;
+    opacity: 0;
     display: block;
+    background: $linearBlue;
     z-index: 2;
-    
-}
+    transition: all .5s ease-in-out;
+    &.active {
+        visibility: visible;
+        opacity: .8;
+    }
 }
 
 body {
@@ -155,7 +155,6 @@ body {
                 display: flex;
                 list-style: none;
                 width: 75%;
-                justify-content: space-evenly;
             }
             ul.main {
                 li {
@@ -251,7 +250,7 @@ body {
     height: 80px;
     position: fixed;
     width: 100vw;
-    z-index: 11;
+    z-index: 20;
     &:after {
         content: '';
         position: absolute;
@@ -742,6 +741,9 @@ main {
             justify-content: center;
             margin-top: 40px;
             flex-flow: row wrap;
+            img {
+                align-self: center;
+            }
         }
         .container-ticket {
             display: flex;
@@ -1387,7 +1389,7 @@ footer {
         .container-whatsapp {
             position: fixed;
             width: 65px;
-            right:2vw;
+            right: 2vw;
         }
         .cta-overlay {
             top: 0;
@@ -1417,7 +1419,7 @@ footer {
             transform: translateY(-50%);
             -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-            border:1px solid #fff;
+            border: 1px solid #fff;
         }
         .form-wrapper-all .instance {
             display: block;
@@ -1438,13 +1440,13 @@ footer {
             -webkit-transition: all .35s ease-in-out;
             -o-transition: all .35s ease-in-out;
             transition: all 0.35s ease-in-out;
-            border:.5px solid #fff;
+            border: .5px solid #fff;
             border-left: 0;
             border-top: 0;
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            &:last-of-type{
+            &:last-of-type {
                 border-right: 0;
             }
         }
@@ -1469,8 +1471,60 @@ footer {
             text-align: center;
         }
         .leave-message .fields {
-            max-width: 300px;
+            max-width: 350px;
             margin: auto;
+            form.call_me_now {
+                height: 200px;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                label {
+                    width: 80%;
+                    position: relative;
+                    &.fields_name:after {
+                        content: '\f007';
+                        font-family: 'FontAwesome';
+                        position: absolute;
+                        left: 18px;
+                        top: 18px;
+                        font-size: 20px;
+                    }
+                    &.fields_tel:after {
+                        content: '\f095';
+                        font-family: 'FontAwesome';
+                        position: absolute;
+                        left: 18px;
+                        top: 18px;
+                        font-size: 20px;
+                    }
+                }
+                input[type="text"] {
+                    padding: 10px 0px 10px 40px;
+                    border: 1px solid #394ba0;
+                    border-radius: 20px;
+                    color: $gray;
+                    margin: 10px 0;
+                    position: relative;
+                    width: 100%;
+                }
+                input[type="submit"] {
+                    width: 80%;
+                    background: #394ba0;
+                    padding: 10px 0;
+                    border-radius: 20px;
+                    color: #fff;
+                    border: 0;
+                }
+            }
+        }
+        .call_me_later {
+            .leave-title {
+                color: $gray;
+                font-family: 'GothamRnd-book';
+                font-size: 18px;
+            }
         }
         .leave-message .fields .full {
             clear: both;
@@ -1511,17 +1565,28 @@ footer {
         }
         .leave-title {
             font-size: 20px;
-            color: $gray;
+            color: #394ba0;
             font-weight: 700;
             line-height: 24px;
             padding-top: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             max-width: 360px;
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 100%;
             border-bottom: 0;
+            display: flex;
+            flex-flow: column wrap;
+            font-family: GothamRnd-bold;
+            font-size: 24px;
+            span {
+                color: #939598;
+                font-family: GothamRnd-book;
+                margin-top: 15px;
+                font-size: 16px;
+                line-height: 20px;
+            }
         }
         .leave-title .variant {
             font-size: 30px;
@@ -1567,7 +1632,6 @@ footer {
             font-size: 16px;
             color: #fff;
             border: 2px solid transparent;
-        
             -webkit-transition: .2s ease;
             -o-transition: .2s ease;
             transition: 0.2s ease;
@@ -1579,8 +1643,8 @@ footer {
             border-color: #00b3d3;
         }
         .close-modal {
-            top: -27vh;
-            right: 35vw;
+            top: 23vh;
+            right: 34vw;
             position: absolute;
             background: #fff;
             color: #2b3f99;
@@ -1595,7 +1659,7 @@ footer {
             border-radius: 20px;
             z-index: 22;
             transition: all .3s ease-in-out;
-            &:hover{
+            &:hover {
                 color: #fff;
                 background: #2b3f99;
                 transition: all .3s ease-in-out;
@@ -1653,7 +1717,7 @@ footer {
             align-items: center;
             font-size: 10px;
             font-weight: 300;
-            b{
+            b {
                 color: #2b3f99;
                 font-size: 2em;
                 font-weight: 800;
@@ -1668,21 +1732,21 @@ footer {
         .call-cta {
             margin-top: 30px;
         }
-        .phone-icon{
+        .phone-icon {
             transform: rotate(260deg);
             &:after {
-            content: "1";
-            padding: 3px 9px;
-            font-size: 12px;
-            color: #fff;
-            border-radius: 50%;
-            background-color: red;
-            position: absolute;
-            top: -13px;
-            left:37px;
-            transform: rotate(95deg);
+                content: "1";
+                padding: 3px 9px;
+                font-size: 12px;
+                color: #fff;
+                border-radius: 50%;
+                background-color: red;
+                position: absolute;
+                top: -13px;
+                left: 37px;
+                transform: rotate(95deg);
+            }
         }
-    }
         .close-cta {
             position: absolute;
             width: 25px;

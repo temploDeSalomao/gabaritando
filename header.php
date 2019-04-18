@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/min/fonts.css">
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/min/style.css">
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/min/media.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
     <header class="main-header">
@@ -49,12 +50,33 @@
           </nav>
         </div>
       </div>
+<!-- Barra fixa -->
+    <div class="container-fluid barra-fixa " hidden>
+      <figure>
+        <img src="" alt="">
+      </figure>
+      <nav>
+        <ul>
+            <li><a href="#">Diferenciais</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Planos e preços</a></li>
+            <li><a href="http://eugabaritandoenem.com.br/#opniao">Professores</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+      </nav>
+    </div>
+
+
       <!-- Mobile -->
       <div class="menu-mobile hidden-md">
         <div class="overlay"></div>
         <div class="header-menu">
           <div class="logo">
+            <a href="./">
+              
             <img src="<?=get_template_directory_uri()?>/assets/images/logo/logo-gabaritando-mobile.jpg" alt="logo gabaritando">
+            </a>
           </div>
           <div class="burger">
             <div class="burger-item"></div>
@@ -63,8 +85,8 @@
           </div>
         </div>
         <nav class="master-content-menu-mobile">
-          <span class="menu-title">
-          </span>
+          <!-- <span class="menu-title">
+          </span> -->
           <ul>
             <li><a href="#">Diferenciais</a></li>
             <li><a href="#">Depoimentos</a></li>

@@ -17,12 +17,13 @@ gulp.task('build-css',function(){
 		);
 });
 
-gulp.task('build-js',function(){
+gulp.task('build-js',function(done){
 	return(
 		gulp.src("assets/js/*.js")
 		.pipe(uglify())
 		.pipe(gulp.dest('assets/js/min'))	
 	);
+	done();
 });	
 
 
