@@ -65,7 +65,7 @@ $(window).ready(function() {
         // $([document.documentElement, document.body]).animate({
         //     scrollTop: $("#elementtoScrollToID").offset().top
         // }, 2000);
-        console.log($(this).val());
+        console.log($(this).text());
     });
 
 });
