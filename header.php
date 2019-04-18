@@ -102,19 +102,32 @@
           <div class="swiper-container swiper_banner">
             <div class="swiper-wrapper">
               <div class="slide model-1 swiper-slide ">
-                <span class="title">Estude pelo<br> <b class="ye
-                llow">Computador, <br> Celular ou Tablet </b></span>
+                <span class="title">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/titulos/first-title.png" alt="">
+                  
+                </span>
                 <ul>
-                  <li><span><b class="yellow">03</b> novos vídeos por semana;</span></li>
-                  <li><span><b class="yellow">05</b> monitorias;</span></li>
-                  <li><span><b class="yellow">05</b> simulados por mês!</span></li>
+              <li><span><b class="yellow"></b> Novos vídeos todo mês;</span></li>
+                  <li><span><b class="yellow"></b>  Monitoria online;</span></li>
+                  <li><span><b class="yellow">02</b> simulados por mês!</span></li>
                 </ul>
                 <div class="controller">
                   <div class="control left banner" data-direction="left" data-current-slide="0" ><i class="fa fa-chevron-left"> </i></div>
                   <div class="control right banner"  data-direction="right" data-current-slide="0" ><i class="fa fa-chevron-right"></i></div>
                 </div>
               </div>
-              <div class="slide model-2 swiper-slide ">
+              <div class="slide model-3 swiper-slide ">
+                <div class="outer-slide">
+                  <div class="box-slide-model">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/titulos/dicas-vestibular.png" alt="">
+                  </div>
+                </div>
+                <div class="controller">
+                  <div class="control left banner" data-direction="left" data-current-slide="0" ><i class="fa fa-chevron-left"> </i></div>
+                  <div class="control right banner"  data-direction="right" data-current-slide="0" ><i class="fa fa-chevron-right"></i></div>
+                </div>
+              </div>
+                <div class="slide model-2 swiper-slide ">
                 <div class="outer-slide">
                   <div class="box-slide-model">
                     <img src="<?=get_template_directory_uri()?>/assets/images/titulos/50.png" alt="">

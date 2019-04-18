@@ -424,6 +424,8 @@ body {
             color: #fff;
             line-height: 80px;
             font-weight: 400;
+            display: flex;
+            margin-bottom: 20px;
 
             b {
                 font-size: 80px;
@@ -485,6 +487,11 @@ body {
         }
     }
 
+.slide.model-3{
+    .outer-slide{
+        margin-top: 70px;
+    }
+}
     .controller {
         display: flex;
         flex-flow: row nowrap;
@@ -872,6 +879,7 @@ main {
                         background: url($imageDir + "thumbs/ticketle.png") no-repeat;
                         margin-top: 25px;
                         background-position-x: -5px !important;
+
                     }
                 }
 
@@ -887,25 +895,28 @@ main {
                 background-position: center !important;
                 min-height: 620px;
                 padding: 35px 20px;
+                justify-content: center;
 
                 .ticket-title {
                     font-size: 25px;
                     font-family: 'jolyGodblk';
                     font-weight: 600;
+                    padding-left: 18px;
                 }
 
                 .about-ticket {
                     color: #000;
                     font-size: 17px;
+                    padding-left: 18px;
 
                     b {
-                        font-weight: 800;
                         font-family: 'jolyGodblk';
                     }
                 }
 
                 ul {
                     padding: 15px;
+                    padding-left: 30px;
                     font-family: 'jolyGod';
                     font-size: 12px;
 
@@ -984,7 +995,7 @@ main {
                     width: 19px;
                     height: 41px;
                     top: -50px;
-                    left: 4.5vw;
+                    left: 3.5vw;
                 }
             }
         }
@@ -1701,12 +1712,14 @@ footer {
                 font-size: 16px;
 
                 textarea {
+                    margin-top: 20px;
                     width: 80%;
-                    height: 150px;
+                    height: 100px;
                     border-radius: 10px;
                     padding: 20px;
                     resize: none;
                     color: $gray;
+                    border:1px solid #394ba0;
                 }
 
                 .date_form {
@@ -1765,11 +1778,16 @@ footer {
             }
         }
 
-        .call_me_later {
+        .leave-message {
             .leave-title {
                 color: $gray;
                 font-family: 'GothamRnd-book';
                 font-size: 18px;
+                &.blue{
+                    color: #394ba0;
+                    font-family: GothamRnd-bold;
+                    font-size: 20px;
+                }
             }
         }
 
@@ -2056,7 +2074,7 @@ footer {
         display: flex;
         align-self: center;
         color: #fff;
-        font-size: 40px;
+        font-size: 36px;
         text-align: center;
         flex: 1 1 100%;
         justify-content: center;

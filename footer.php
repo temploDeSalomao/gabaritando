@@ -87,14 +87,15 @@
 					</div>
 					<div class="instance" data-instance="00">
 						<div class="leave-message">
-							<legend class="leave-title">
+							<legend class="leave-title blue">
 								NÓS TE LIGAMOS!
 								<span>Informe seu telefone que entraremos em contato o mais rápido possivel.</span>
 							</legend>
 							<div class="fields cleared">
-								<form class="call_me_now" action="">
-									<label class="fields_name"><input type="text"  placeholder="Informe seu nome" required></label>
-									<label class="fields_tel"><input type="text" placeholder="Informe seu telefone" required=""></label>
+								<form class="call_me_now" method="post" action="<?=get_template_directory_uri()?>/inc/engine.php">
+									<input type="text"  name="action" value="weCall" hidden>
+									<label class="fields_name"><input type="text" name="userName"  placeholder="Informe seu nome" required></label>
+									<label class="fields_tel"><input type="text" name="userTel" placeholder="Informe seu telefone" required=""></label>
 									<input type="submit" value="ME LIGUE AGORA!">
 								</form>
 								<p class="callers">Você já é a <span class="number">5</span> pessoa a solicitar uma ligação.</p>
@@ -108,16 +109,17 @@
 								chamada em outro horário?
 							</legend>
 							<div class="fields cleared">
-								<form action="">
+								<form method="post" action="<?=get_template_directory_uri()?>/inc/engine.php">
+									<input type="text"   name="action" value="weCallLater" hidden>
 									<div class="date_form">
-										<input type="text" placeholder="Hoje">
-										<input type="text" placeholder="11:30">
+										<input type="text" name="data" placeholder="Hoje">
+										<input type="text" name="horario" placeholder="11:30">
 									</div>
 									<label for="" class="fields_name">
-										<input type="text" placeholder="Informe seu nome">
+										<input type="text" name="userName" placeholder="Informe seu nome">
 									</label>
 									<label for="" class="fields_tel">
-										<input type="text" placeholder="Informe seu telefone" />
+										<input type="text" name="userTel" placeholder="Informe seu telefone" />
 									</label>
 									<input type="submit" value="ME LIGUE DEPOIS!">
 								</form>
@@ -131,13 +133,14 @@
 								Deixe Sua Mensagem! Entraremos em contato o mais rápido possivel.
 							</legend>
 							<div class="fields cleared">
-								<form action="">
-									<textarea name="" id="" placeholder="Deixe sua mensagem"></textarea>
+								<form method="post" action="<?=get_template_directory_uri()?>/inc/engine.php">
+									<input type="text" name="action"  value="message" hidden>
+									<textarea name="message" placeholder="Deixe sua mensagem"></textarea>
 									<label for="" class="fields_name">
-										<input type="text" placeholder="Informe seu nome">
+										<input type="text" name="userName" placeholder="Informe seu nome">
 									</label>
 									<label for="" class="fields_tel">
-										<input type="text" placeholder="Informe seu telefone" />
+										<input type="text" name="userTel" placeholder="Informe seu telefone" />
 									</label>
 									<input type="submit" value="ME ENVIE UMA MENSAGEM!">
 								</form>
