@@ -66,7 +66,7 @@ $(window).ready(function() {
 
         switch ($(this).text()) {
             case 'Diferenciais':
-                
+                smooth($('.first-section'));
             break;
             case 'Depoimentos':
             
