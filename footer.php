@@ -38,7 +38,7 @@
 				</div>
 				
 				<div class="col-sm-12 col-md-4 about-3xceler">
-					<a href="http://3xceler.com.br">
+					<a href="http://3xceler.com.br" class="no-decorate" >
 						Criação de sites:
 						<img src="<?=get_template_directory_uri()?>/assets/images/logo_3xceler_branco.png" alt="3xceler Marketing Performance" title="3xceler Marketing Performance">
 					</a>
