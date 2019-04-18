@@ -95,7 +95,7 @@
 								<form class="call_me_now" action="">
 									<label class="fields_name"><input type="text"  placeholder="Informe seu nome" required></label>
 									<label class="fields_tel"><input type="text" placeholder="Informe seu telefone" required=""></label>
-									<input type="submit" value="ME LIGUE AGORA">
+									<input type="submit" value="ME LIGUE AGORA!">
 								</form>
 								<p class="callers">Você já é a <span class="number">5</span> pessoa a solicitar uma ligação.</p>
 							</div>
@@ -119,7 +119,7 @@
 									<label for="" class="field_tel">
 										<input type="text" />
 									</label>
-									<input type="submit" value="ME LIGUE DEPOIS">
+									<input type="submit" value="ME LIGUE DEPOIS!">
 								</form>
 								<p class="callers">Você já é a <span class="number">5</span> pessoa a solicitar uma ligação.</p>
 							</div>
@@ -139,7 +139,7 @@
 									<label for="" class="field_tel">
 										<input type="text" placeholder="Informe seu telefone" />
 									</label>
-									<input type="submit" value="ME ENVIE UMA MENSAGEM">
+									<input type="submit" value="ME ENVIE UMA MENSAGEM!">
 								</form>
 								<p class="callers">Você já é a <span class="number">5</span> pessoa a solicitar uma ligação.</p>
 							</div>
