@@ -85,7 +85,7 @@ $(window).ready(function() {
             default:
             break;
             
-            return smooth(section);
+            smooth(section);
         }
 
 
