@@ -211,7 +211,8 @@ body {
                         height: 100%;
                         border-radius: 20px;
                         visibility: hidden;
-                        transition: all 1s;
+                        opacity: 0;
+                        transition: all 1s ease-in-out;
                         // Background white
                         // Menu 
                         // transition: all .15s ease-in-out;
@@ -228,6 +229,7 @@ body {
 
                         &:after {
                             visibility: visible;
+                            opacity: 1;
                         }
                     }
                 }
