@@ -1150,9 +1150,9 @@ main {
                 &:before {
                     content: "";
                     position: absolute;
-                    left: -40px;
+                    left: -20%;
                     width: 100%;
-                    height: 80px;
+                    height: 117px;
                     background: url($imageDir + "thumbs/books.png") no-repeat;
                     background-size: contain;
                 }
