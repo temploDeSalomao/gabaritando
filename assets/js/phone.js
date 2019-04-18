@@ -13,7 +13,7 @@ function openPhoneCta() {
 
 
 		if (day === 'Domingo' || day === 'Sábado' || hour > 18 || hour < 8) {
-			picker[0].disabled = true;
+			picker[0].disabled = false;
 			picker[0].title = "Disponível apenas em horário comercial";
 		}
 	});
