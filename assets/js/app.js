@@ -41,8 +41,7 @@ $(window).ready(function() {
     })
 
 
-
-
+    // Burger
     $('.burger').click(function() {
         $('.master-content-menu-mobile').toggleClass('mobile-open');
 
@@ -56,6 +55,17 @@ $(window).ready(function() {
             $('.burger').removeClass('transform');
             $('.overlay').removeClass('active');
         }
+    });
+
+
+
+
+    // Smoothly
+    $(".nav-link").click(function() {
+        // $([document.documentElement, document.body]).animate({
+        //     scrollTop: $("#elementtoScrollToID").offset().top
+        // }, 2000);
+        console.log($(this).value)/
     });
 
 });
