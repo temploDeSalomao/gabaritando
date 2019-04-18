@@ -65,7 +65,18 @@ $(window).ready(function() {
         // $([document.documentElement, document.body]).animate({
         //     scrollTop: $("#elementtoScrollToID").offset().top
         // }, 2000);
-        console.log($(this).text());
+
+        let section='';
+
+        switch ($(this).text()) {
+            case 'Diferenciais':
+                // statements_1
+                break;
+            default:
+                // statements_def
+                break;
+        }
+        console.log();
     });
 
 });
