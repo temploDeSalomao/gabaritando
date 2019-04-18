@@ -973,8 +973,6 @@ main {
                     &:hover {
                         .hoverEffect {
                             background: linear-gradient(to top, #2c3997 15%, transparent);
-                            visibility: visible;
-                            transition: all .4s ease-in-out;
                             &:after {
                                 visibility: visible;
                             }
