@@ -68,24 +68,33 @@ $(window).ready(function() {
         switch ($(this).text()) {
             case 'Diferenciais':
             section=$('.first-section');
+            smooth(section);
             break;
             case 'Depoimentos':
             section=$('.reviews');
+            smooth(section);
             
             break;
             case 'Professores':
             
+            section=$('.ourTeachers');
+            smooth(section);
             break;
             case 'Blog':
             
+            section=$('.ourNews');
+            smooth(section);
             break;
             case 'Contato':
 
+            section=$('.reviews');
+            smooth(section);
             break;
             default:
+                
+            section=$('.reviews');
+            smooth('');
             break;
-            
-            smooth(section);
         }
 
 
