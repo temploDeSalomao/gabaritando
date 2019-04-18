@@ -188,11 +188,6 @@ body {
 
                     transition: all .4s ease-in-out;
                     // Arrumar gradiente da borda dps
-                    &:hover {
-                        // background: $linearBlue;
-                        background-color: #fff;
-                    }
-
                     a {
                         display: flex;
                         align-items: center;
