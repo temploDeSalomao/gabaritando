@@ -1,5 +1,28 @@
 $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
 
+
+.swiper-pagination-bullet{
+    color: #fff !important;
+    opacity: .7 !important;
+
+    &:not(.swiper-pagination-bullet-active){
+        background: #515050 ;
+    }
+}
+
+.swiper-pagination-panel{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    span{
+        margin:0 5px;
+    }
+}
+
 @media (min-width: 990px) and (max-width: 1680px) {
     .logo {
         width: 850px;
@@ -85,11 +108,20 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
         .controller {
             margin: 70px 0;
         }
-        .slide.model-1 {
-            margin-top: 95px;
+        .slide{
+            margin-top:auto !important;
+            padding-top: 15vh !important;
+
+            .outer-slide{
+                max-width: 90vw !important;
+                padding-top: 70px !important;  
+            }
             .title {
                 font-size: 28px;
                 line-height: 40px;
+                max-width: 90vw;
+
+
                 b {
                     font-size: 30px;
                     line-height: 30px;

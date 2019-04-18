@@ -136,12 +136,10 @@
 							</article>
 						</div>
 					</div>
-					<div class="swiper-pagination-panel"></div>
 				</div>
-				
 			</div>
-			<div class="col-sm-12 hidden-md controlle-mobile swiper-pagination">
-			</div>
+			<div class="col-sm-12 hidden-md controlle-mobile center swiper-pagination-panel"></div>	
+			
 		</div>
 	</div>
 </section>
@@ -532,6 +530,8 @@
 			<?php
 			}
 			?>
+			<div class="col-sm-12 hidden-md controlle-mobile swiper-pagination-news">
+				</div>
 		</div>
 		<div class="outer-news mobile hidden-md">
 			<div class="swiper-container swiper-news">
