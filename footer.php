@@ -7,7 +7,7 @@
 						<img src="<?=get_template_directory_uri()?>/assets/images/logo/logo-mobile.png" alt="">
 					</div>
 					<address>
-						<span class="contato"><a href="tel:" class="blue" ><i style="transform: rotate(265deg); color: #2d3c99" class="fa fa-phone"></i> : 11 99181.8007</a></span>
+						<span class="contato"><a href="tel:11991818007" class="blue" ><i style="transform: rotate(265deg); color: #2d3c99" class="fa fa-phone"></i> : 11 99181.8007</a></span>
 						<a href="mailto:" class="mail"> contato@eugabaritandoenem.com.br</a>
 					</address>
 				</div>
