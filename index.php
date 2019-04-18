@@ -491,7 +491,7 @@
 </div>
 <div class="ourNews">
 <div class="container">
-	<section class="col-sm-12 col-md-8">
+	<section class="col-sm-12 col-md-9">
 		<header>
 			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourNews.png" alt="">
 		</header>
@@ -563,7 +563,7 @@
 			<a href="#">Ler todos os posts</a>
 		</div>
 	</div>
-	<aside class="col-sm-12 col-md-4">
+	<aside class="col-sm-12 col-md-3">
 		<div class="outer-promo">
 			<span>Novidades e <br/> <b class="red">Promoções</b> </span>
 			<p>Preencha os campos abaixo e receba em seu email nossas últimas dicas, promoções, novidades e conteúdos para turbinar seus estudos!</p>
