@@ -1486,7 +1486,7 @@ footer {
             max-width: 350px;
             margin: auto;
             form {
-                height: 200px;
+                height: auto;
                 display: flex;
                 flex-flow: column wrap;
                 justify-content: center;
@@ -1496,7 +1496,7 @@ footer {
                     display: inline-flex;
                     justify-content: space-evenly;
                     input{
-                        width: 45% !important;
+                        width: 40% !important;
                     }
                 }
                 label {
