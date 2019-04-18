@@ -1779,7 +1779,7 @@ footer {
 .pulse {
   display: block;
   width: 55px !important;
-  height: 55px;
+  height: 55px !important;
   border-radius: 50%;
   background: #2ad66a;
   cursor: pointer;
