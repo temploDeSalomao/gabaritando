@@ -1787,6 +1787,7 @@ footer {
   box-shadow: 0 0 0 rgba(204,169,44, 0.4);
   animation: pulse 2s infinite;
   position: relative;
+  text-decoration: none;
   &:after{
     content: '\f232';
     font-family: 'FontAwesome';
