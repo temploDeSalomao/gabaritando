@@ -1149,7 +1149,7 @@ main {
             .outer-promo {
                 width: 100%;
                 background: url($imageDir + "thumbs/ticket-footer.png") no-repeat;
-                background-size: 320px 480px;
+                background-size: cover;
                 background-position: center;
                 padding: 40px 0px 40px 15px;
                 display: flex;
