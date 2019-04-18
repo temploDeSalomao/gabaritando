@@ -2,7 +2,7 @@
 	<div class="container-contact">
 		<div class="container-md">
 			<div class="col-sm-12 col-md-12 address">
-				<div class="col-sm-12 col-md-4 center">
+				<div class="col-sm-12 col-md-4">
 					<div class="logo-mobile hidden-md center flex column">
 						<img src="<?=get_template_directory_uri()?>/assets/images/logo/logo-mobile.png" alt="">
 					</div>
