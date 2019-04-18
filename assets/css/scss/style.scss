@@ -1790,6 +1790,8 @@ footer {
   &:after{
     content: '\f232';
     font-family: 'FontAwesome';
+    display: flex;
+    align-self: center;
   }
 }
 .pulse:hover {
