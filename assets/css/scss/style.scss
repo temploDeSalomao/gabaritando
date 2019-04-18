@@ -952,9 +952,10 @@ main {
                             position: absolute;
                             top: 0;
                             border-radius: 10px;
-                            transition: all 2ms ease-in-out;
+                            transition: all 4ms ease-in-out;
                             z-index: -1;
                             visibility: hidden;
+                            background: linear-gradient(to top, #2c3997 15%, transparent);
                             &:after {
                                 content: "";
                                 position: absolute;
@@ -972,7 +973,7 @@ main {
                     }
                     &:hover {
                         .hoverEffect {
-                            background: linear-gradient(to top, #2c3997 15%, transparent);
+                            visibility: visible;
                             &:after {
                                 visibility: visible;
                             }
