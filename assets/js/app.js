@@ -62,19 +62,34 @@ $(window).ready(function() {
 
     // Smoothly
     $(".nav-link").click(function() {
-        // $([document.documentElement, document.body]).animate({
-        //     scrollTop: $("#elementtoScrollToID").offset().top
-        // }, 2000);
-
         let section='';
 
         switch ($(this).text()) {
             case 'Diferenciais':
-                // statements_1
-                break;
+                
+            break;
+            case 'Depoimentos':
+            
+            break;
+            case 'Professores':
+            
+            break;
+            case 'Blog':
+            
+            break;
+            case 'Contato':
+
+            break;
             default:
-                // statements_def
+               
                 break;
+        }
+
+
+        function smooth(x){
+            $([document.documentElement, document.body]).animate({
+          scrollTop: x.offset().top
+         }, 2000);
         }
         console.log();
     });
