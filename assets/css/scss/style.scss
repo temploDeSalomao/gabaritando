@@ -1495,8 +1495,9 @@ footer {
                 .date_form{
                     display: inline-flex;
                     justify-content: space-evenly;
+                    width: 80%;
                     input{
-                        width: 40% !important;
+                        width: 50% !important;
                     }
                 }
                 label {
