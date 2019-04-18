@@ -91,7 +91,7 @@ $(window).ready(function() {
             smooth(section);
             break;
             default:
-            section=$('.ourPlans');
+            section=$('.main-ticket');
             smooth(section);
             break;
         }
