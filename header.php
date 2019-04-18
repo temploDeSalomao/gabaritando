@@ -33,12 +33,12 @@
           </nav>
           <nav class="menu">
             <ul class="main">
-              <li><a href="">Diferenciais</a></li>
-              <li><a href="">Depoimentos</a></li>
-              <li><a href="">Planos e Preços</a></li>
-              <li><a href="http://eugabaritandoenem.com.br/#opniao">Professores</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Contato</a></li>
+              <li class="nav-link"><a href="">Diferenciais</a></li>
+              <li class="nav-link"><a href="">Depoimentos</a></li>
+              <li class="nav-link"><a href="">Planos e Preços</a></li>
+              <li class="nav-link"><a href="http://eugabaritandoenem.com.br/#opniao">Professores</a></li>
+              <li class="nav-link"><a href="">Blog</a></li>
+              <li class="nav-link"><a href="">Contato</a></li>
             </ul>
             <ul class="sociais">
               <li>
