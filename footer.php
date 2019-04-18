@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="fast-actions">
-		<a href="#" class="container-whatsapp pulse">
+		<a href="https://wa.me/5511991818007" class="container-whatsapp pulse">
 			
 		</a>
 		<a href="#" class="container-phonecta">
