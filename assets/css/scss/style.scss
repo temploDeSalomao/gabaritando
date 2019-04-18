@@ -759,6 +759,7 @@ main {
                     }
                     .ticket {
                         background: url($imageDir + "thumbs/ticketld.png") no-repeat;
+                        background-position-x:5px !important; 
                     }
                     .btn {
                         margin-top: 27px;
