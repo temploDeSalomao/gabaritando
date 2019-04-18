@@ -62,7 +62,8 @@ $(window).ready(function() {
 
     // Smoothly
     $(".nav-link").click(function() {
-        let section='';
+        
+        var section='';
 
         switch ($(this).text()) {
             case 'Diferenciais':
