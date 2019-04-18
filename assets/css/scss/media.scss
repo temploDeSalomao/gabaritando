@@ -1,15 +1,71 @@
 $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
 
+@media (min-width: 990px) and (max-width: 1680px) {
+    .logo {
+        width: 850px;
+        display: flex;
+    }
+    img {
+        align-self: center;
+    }
+    #containerHeader {
+        .outerMenuDesk {
+            .menu {
+                left: 0;
+                ul {
+                    &.main {
+                        margin-left: -90px;
+                        width: 100%;
+                        li {
+                            padding: 0 20px;
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                ul.sociais{
+                    margin-left: 0;
+                }
+            }
+            .cliArea{
+                width: 185px;
+                margin-right: 0;
+            }
+        }
+    }
 
-@media (min-width:990px){
-    .hidden-md{
-        display: none !important;
+
+    main {
+        .ourTeachers{
+            .container-square{
+                ul{
+                    .square{
+                        &:after{
+                            background-size: 90% 100%;
+                        }
+                    }
+                }
+
+                .books{
+                    right: 0;
+                }
+            }
+        }
     }
 }
 
+@media (min-width: 990px) {
+    .hidden-md {
+        display: none !important;
+    }
+    img{
+        max-width: 100%;
+    }
+}
 
 @media (max-width: 990px) {
-    .hidden-sm{
+    .hidden-sm {
         display: none !important;
     }
     #containerHeader {
@@ -21,8 +77,13 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     #slideHome {
         max-width: 100vw;
         margin-top: 80px;
-        .controller{
-            margin:70px 0;
+
+        .container{
+            padding: 0 15px;
+        }
+
+        .controller {
+            margin: 70px 0;
         }
         .slide.model-1 {
             margin-top: 95px;
@@ -42,6 +103,9 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
             }
         }
         .slide.model-2 {
+            .outer-slide{
+                margin-top: 10vh;
+            }
             .box-slide-model {
                 padding: 0;
                 width: 90vw;
@@ -51,39 +115,38 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     // resize container ticket
     .container-ticket {
         flex-flow: column wrap;
+        overflow:hidden;
+
     }
     body {
         .main-header {
-            background: url('../../images/banner-topo-mobile.jpg') no-repeat;
+            background: url("../../images/banner-topo-mobile.jpg") no-repeat;
             background-size: cover;
-            background-position-x:-450px;
-            background-position-y:70px;
+            background-position-x: -450px;
+            background-position-y: 70px;
             min-height: 0;
             &:before {
                 height: 70px;
             }
         }
-       
     }
     main {
-
-        .first-section{
+        .first-section {
             height: auto;
-            .swiper-pagination{
+            .swiper-pagination {
                 position: relative;
-                margin-top:35px;
-                .swiper-pagination-bullet{
-                    margin:0 5px;
+                margin-top: 35px;
+                .swiper-pagination-bullet {
+                    margin: 0 5px;
                 }
             }
-
-            .front-panel.mobile{
-                .col-sm-6{
-                    article{
-                        .container-imagem{
+            .front-panel.mobile {
+                .col-sm-6 {
+                    article {
+                        .container-imagem {
                             height: 150px;
                         }
-                        p{
+                        p {
                             text-align: center;
                         }
                     }
@@ -99,17 +162,22 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                     .ticket {
                         padding: 40px 30px;
                         min-height: 560px;
-                        .price{
+                        .price {
                             margin-top: auto;
                         }
                     }
-                    .btn{
-                        width: 100%;
+                    .btn {
+                        width: 80%;
                     }
                 }
             }
         }
         .ourTeachers {
+            header{
+                .container-fluid{
+                    width: 100%;
+                }
+            }
             section {
                 header {
                     width: 100%;
@@ -119,7 +187,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                         display: flex;
                         justify-content: flex-end;
                         line-height: 45px;
-                        padding-right:25px;
+                        padding-right: 25px;
                     }
                     .sub-title {
                         font-size: 24px;
@@ -221,7 +289,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                     &:after {
                         border-top: 25px solid transparent;
                         border-bottom: 26px solid transparent;
-                        border-right:25px solid #e8c600;
+                        border-right: 25px solid #e8c600;
                         left: -25px;
                     }
                     &:before {
@@ -230,10 +298,10 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                     }
                 }
             }
-            .front-panel{
-                article{
-                    h3{
-                        b{
+            .front-panel {
+                article {
+                    h3 {
+                        b {
                             font-size: 15px;
                         }
                     }
@@ -255,7 +323,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 .container {
                     width: 100%;
                 }
-                .out-review{
+                .out-review {
                     padding: 0;
                 }
             }
@@ -266,14 +334,14 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 }
                 .title.blue {
                     margin-bottom: 10px;
-                    margin-left:115px;
+                    margin-left: 115px;
                     margin-top: -8px;
                     font-size: 30px;
                     &:before {
                         left: 0;
                         width: 100px;
                         background-repeat: no-repeat;
-                        background-size:contain;
+                        background-size: contain;
                         left: -105px;
                         top: 15px;
                     }
@@ -283,33 +351,30 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 }
             }
         }
-
-        .ourPlans{
+        .ourPlans {
             padding: 75px 0;
-
-            
-            &:after{
+            &:after {
                 height: 60px;
                 background-size: cover;
             }
-            &:before{
+            &:before {
                 height: 60px;
                 background-size: cover;
             }
-            .title-img{
+            .title-img {
                 flex-flow: row wrap;
-                span{
+                span {
                     color: #fff;
                 }
-                span.title{
+                span.title {
                     font-size: 24px;
                     display: flex;
                     width: 100%;
                     justify-content: flex-start;
                     font-family: 'Gotham-thin';
                 }
-                span.sub-title{
-                    font-size: 32px;
+                span.sub-title {
+                    font-size: 30px;
                     display: flex;
                     justify-content: flex-end;
                     width: 100%;
@@ -318,18 +383,23 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
             }
         }
         .ourNews {
+            .container-ourNews{
+                width: 100%;
+            }
             background-size: cover;
             padding: 70px 0;
-
-            section.col-sm-12{
+            section.col-sm-12 {
                 padding: 0;
             }
             header {
                 h2 {
                     display: inline-flex;
-
                     font-size: 30px;
-                    b{ font-family: 'Gotham-thin'; font-weight: 400; margin-left:5px;}
+                    b {
+                        font-family: 'Gotham-thin';
+                        font-weight: 400;
+                        margin-left: 5px;
+                    }
                 }
             }
             .outer-news {
@@ -346,7 +416,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                         width: 100%;
                     }
                 }
-                .swiper-wrapper{
+                .swiper-wrapper {
                     margin-bottom: 30px;
                 }
             }
@@ -354,39 +424,45 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 justify-content: center;
                 margin-top: 60px;
                 .outer-promo {
-                    max-width: 336px;
+                    width: 340px;
                     height: 450px;
                     padding: 50px 15px;
-                    margin-bottom:20px;
-                    .form-newsletter{
-                        form{
-                            label{
-                                input{
+                    margin-bottom: 20px;
+                    background-size: cover;
+                    flex-wrap: nowrap;
+                    .form-newsletter {
+                        form {
+                            label {
+                                input {
                                     width: 95%;
                                 }
                             }
-                            .sender{
+                            .sender {
                                 justify-content: center;
                                 color: #fff;
-                                input{
-                                width: 95%;
-                                max-width: 100%;
-                                padding: 10px 0;
-                                margin-top: 0;
-                                margin-left: -10px;
-                                font-size: 16px;
+                                    &:after{
+                                        right: 15vw;
+                                        bottom: 20px;
+                                    }
+                                input {
+                                    width: 95%;
+                                    max-width: 100%;
+                                    padding: 10px 0;
+                                    margin-top: 0;
+                                    margin-left: -10px;
+                                    font-size: 16px;
+
                                 }
                             }
                         }
                     }
                 }
             }
-
-            &:before{
+            &:before {
                 height: 70px;
                 background-size: cover;
             }
-            &:after{
+            &:after {
                 height: 70px;
                 background-size: cover;
             }
@@ -394,11 +470,11 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     }
     .address {
         flex-flow: column wrap;
-        .center{
-            padding: 0; 
+        .center {
+            padding: 0;
             width: 100%;
             align-items: center;
-            img{
+            img {
                 width: 100%;
                 height: auto;
                 max-width: 288px;
@@ -416,10 +492,9 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                         padding: 0;
                         text-align: center;
                         margin-top: 40px;
-                        a{
+                        a {
                             color: #60c393;
                         }
-
                     }
                     .mail {
                         font-size: 14px;
@@ -427,17 +502,16 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                     }
                 }
             }
-            .social-share{
+            .social-share {
                 margin-top: 60px;
                 display: flex;
                 flex-flow: column wrap;
                 justify-content: center;
                 margin-top: 10px;
-                span{
+                span {
                     justify-content: center;
                 }
-
-                .container-social{
+                .container-social {
                     align-self: center;
                     margin-top: 20px;
                 }
@@ -468,12 +542,11 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 .about-3xceler {
                     span {
                         display: flex;
-                        
-                        justify-content:center;
+                        justify-content: center;
                         align-items: center;
                         font-size: 8px;
                         margin: 10px 0;
-                        img{
+                        img {
                             margin-left: 5px;
                         }
                     }
@@ -485,8 +558,70 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
         width: 80%;
         font-size: 12px;
     }
-
-    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
         text-align: center;
+    }
+
+
+    .fast-actions{
+        display: none !important;
+    }
+}
+
+
+
+
+
+// Phonecta
+@media screen and (max-width:997px) {
+    .form-wrapper-all {
+        width: 100%
+    }
+    .call-cta-wrapper {
+        display: none
+    }
+}
+
+@media screen and (min-width:997px) {
+    .form-wrapper-all {
+        width: 520px
+    }
+    .leave-message .fields .half {
+        width: 47.5%;
+        float: left
+    }
+    .leave-message .fields .half+.half {
+        margin-left: 5%
+    }
+    .phone-icon {
+        position: relative;
+        height: 45px;
+        width: 45px;
+        background-color: #00b3d3;
+        -webkit-box-shadow: 0 0 0 7px #a6dde7;
+        box-shadow: 0 0 0 7px #a6dde7;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #fff;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        border: 0
+    }
+}
+
+@media screen and (min-width:997px) and (max-width:1500px) {
+    .call-cta-wrapper {
+        right: 15px;
+        bottom: 15px
+    }
+    .cta-tooltip {
+        width: 130px;
+        padding: 10px 14px
+    }
+    .call-cta {
+        max-width: 50px;
+        margin-top: 15px
     }
 }

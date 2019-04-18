@@ -3,7 +3,7 @@ const gulp =  require("gulp"),
 		uglify = require("gulp-uglify"),
 		uglifycss=require("gulp-uglifycss"),
 		watch= require("gulp-watch"),
-		requirejs = require('requirejs'),
+		requirejs = require('requirejs')
 		imagemin = require("gulp-imagemin");
 
 
@@ -17,12 +17,13 @@ gulp.task('build-css',function(){
 		);
 });
 
-gulp.task('build-js',function(){
+gulp.task('build-js',function(done){
 	return(
 		gulp.src("assets/js/*.js")
 		.pipe(uglify())
 		.pipe(gulp.dest('assets/js/min'))	
 	);
+	done();
 });	
 
 
@@ -36,8 +37,8 @@ gulp.task('imagemin',function(){
 
 
 gulp.task("watch",function(done){
-	gulp.watch('assets/css/scss',gulp.series('build-css'));
-	gulp.watch('assets/js',gulp.series('build-js'));
+	gulp.watch('assets/css/scss/**/*.scss',gulp.series('build-css'));
+	gulp.watch('assets/js/**/*.js',gulp.series('build-js'));
 	// gulp.watch('assets/images',gulp.series('imagemin'));
 	done();
 })
