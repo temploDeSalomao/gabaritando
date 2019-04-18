@@ -75,7 +75,7 @@ $(window).ready(function() {
             break;
             case 'Professores':
             
-            break;asdasd
+            break;a
             case 'Blog':
             
             break;
