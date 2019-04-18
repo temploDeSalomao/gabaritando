@@ -491,7 +491,7 @@
 </div>
 <div class="ourNews">
 <div class="container">
-	<section class="col-sm-12 col-md-9">
+	<section class="col-sm-12 col-md-8">
 		<header>
 			<img src="<?=get_template_directory_uri()?>/assets/images/titulos/ourNews.png" alt="">
 		</header>
@@ -507,7 +507,7 @@
 			$posts = get_posts($args);
 				foreach ($posts as $post ) {
 			?>
-			<div class="outer-news hidden-sm col-md-3">
+			<div class="outer-news hidden-sm col-md-4">
 				<div class="img-news">
 					<img src="<?=get_the_post_thumbnail_url()?>" alt="">
 				</div>
