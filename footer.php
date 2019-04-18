@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="fast-actions">
-		<a href="#" class="container-whatsapp">
+		<a href="#" class="container-whatsapp pulse">
 			<img src="https://www.amarecuidar.com.br/wp-content/themes/amarecuidar_3xceler/images/common/whatsapp.png" alt="">
 		</a>
 		<a href="#" class="container-phonecta">
