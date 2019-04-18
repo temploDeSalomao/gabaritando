@@ -116,7 +116,7 @@
 									<label for="" class="fields_name">
 										<input type="text" placeholder="Informe seu nome">
 									</label>
-									<label for="" class="field_tel">
+									<label for="" class="fields_tel">
 										<input type="text" placeholder="Informe seu telefone" />
 									</label>
 									<input type="submit" value="ME LIGUE DEPOIS!">
