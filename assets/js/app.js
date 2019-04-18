@@ -87,13 +87,12 @@ $(window).ready(function() {
             break;
             case 'Contato':
 
-            section=$('.reviews');
+            section=$('.ourNews');
             smooth(section);
             break;
             default:
-                
-            section=$('.reviews');
-            smooth('');
+            section=$('.ourPlans');
+            smooth(section);
             break;
         }
 
