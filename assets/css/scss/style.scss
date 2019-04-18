@@ -247,7 +247,6 @@ body {
                 width: 13%;
                 align-items: center;
                 margin-left: 2vw;
-                transition: all .3s ease-in-out;
 
                 li {
                     display: flex;
@@ -257,6 +256,7 @@ body {
                     height: 35px;
                     background: #2b3f99;
                     border-radius: 100%;
+                transition: all .3s ease-in-out;
 
                     a {
                         color: #fff;
