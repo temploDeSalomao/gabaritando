@@ -1492,6 +1492,9 @@ footer {
                 justify-content: center;
                 align-items: center;
                 font-size: 16px;
+                .date_form{
+                    display: inline-flex;
+                }
                 label {
                     width: 80%;
                     position: relative;
