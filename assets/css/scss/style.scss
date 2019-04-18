@@ -955,6 +955,7 @@ main {
                             transition: all 4ms ease-in-out;
                             z-index: -1;
                             visibility: hidden;
+                            opacity: 0;
                             background: linear-gradient(to top, #2c3997 15%, transparent);
                             &:after {
                                 content: "";
@@ -974,6 +975,7 @@ main {
                     &:hover {
                         .hoverEffect {
                             visibility: visible;
+                            opacity: .9;
                             &:after {
                                 visibility: visible;
                             }
