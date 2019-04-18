@@ -180,7 +180,7 @@
 		<?php
 		}
 		?>
-		<a href="#" class="btn md green uppercase rounded center">Experimente nossas aulas!</a>
+		<a target="_blank" href="https://www.youtube.com/channel/UCoHdAfpgOR-5oBUujXYjyhg" class="btn md green uppercase rounded center">Experimente nossas aulas!</a>
 	</div>
 </div>
 <div class="content-reviews mobile hidden-md">
@@ -471,7 +471,7 @@
 						foreach ($posts as $post ) {
 				?>
 				<li class="square col-xs-3 col-md-2">
-					<a href="http://google.com.br">
+					<a href="#">
 						<div class="inner-square">
 							<img src="<?=get_the_post_thumbnail_url()?>" alt="">
 							<span class="hoverEffect">
@@ -484,7 +484,7 @@
 							}
 				?>
 			</ul>
-			<a class="btn green rounded books uppercase" href="">Experimente nossas aulas!</a>
+			<a target="_blank" class="btn green rounded books uppercase" href="https://www.youtube.com/channel/UCoHdAfpgOR-5oBUujXYjyhg">Experimente nossas aulas!</a>
 		</nav>
 	</section>
 </div>
@@ -507,21 +507,28 @@
 			$posts = get_posts($args);
 				foreach ($posts as $post ) {
 			?>
-			<div class="outer-news hidden-sm col-md-4">
-				<div class="img-news">
-					<img src="<?=get_the_post_thumbnail_url()?>" alt="">
+
+			<a  target="_blank" rel="nofollow" href=<?=get_field('news_link')?>>
+				<div class="outer-news hidden-sm col-md-4">
+					<div class="img-news">
+						<img src="<?=get_the_post_thumbnail_url()?>" alt="">
+					</div>
+					<div class="content-news">
+						<span class="post-info">
+							<i class="post-date"><?=the_time('j \d\e F \d\e Y')?></i>
+							<i class="post-author">Postado por <?php echo $post->post_author != 1 ? $post->post_author : 'Admin' ?>  </i>
+						</span>
+						<h3 class="post-title"><?=the_title()?></h3>
+						<p class="post-content">
+							<?php 
+							print_r(substr($post->post_content,0,250)."...");
+
+							?>
+							
+						</p>
+					</div>
 				</div>
-				<div class="content-news">
-					<span class="post-info">
-						<i class="post-date"><?=the_time('j \d\e F \d\e Y')?></i>
-						<i class="post-author">Postado por <?php echo $post->post_author != 1 ? $post->post_author : 'Admin' ?>  </i>
-					</span>
-					<h3 class="post-title"><?=the_title()?></h3>
-					<p class="post-content">
-						<?php print_r($post->post_content)?>
-					</p>
-				</div>
-			</div>
+			</a>
 			<?php
 			}
 			?>

@@ -62,47 +62,58 @@ $(window).ready(function() {
 
     // Smoothly
     $(".nav-link").click(function() {
-        
-        var section='';
+
+        var section = '';
 
         switch ($(this).text()) {
             case 'Diferenciais':
-            section=$('.first-section');
-            smooth(section);
-            break;
+                section = $('.first-section');
+                smooth(section);
+                break;
             case 'Depoimentos':
-            section=$('.reviews');
-            smooth(section);
-            
-            break;
+                section = $('.reviews');
+                smooth(section);
+
+                break;
             case 'Professores':
-            
-            section=$('.ourTeachers');
-            smooth(section);
-            break;
+
+                section = $('.ourTeachers');
+                smooth(section);
+                break;
             case 'Blog':
-            
-            section=$('.ourNews');
-            smooth(section);
-            break;
+
+                section = $('.ourNews');
+                smooth(section);
+                break;
             case 'Contato':
 
-            section=$('.ourNews');
-            smooth(section);
-            break;
+                section = $('.ourNews');
+                smooth(section);
+                break;
             default:
-            section=$('.main-ticket');
-            smooth(section);
-            break;
+                section = $('.main-ticket');
+                smooth(section);
+                break;
         }
 
 
-        function smooth(x){
+        function smooth(x) {
             $([document.documentElement, document.body]).animate({
-          scrollTop: x.offset().top
-         }, 2000);
+                scrollTop: x.offset().top
+            }, 2000);
         }
         console.log();
     });
+
+
+    // $(".btn.enviar").click(function() {
+    //     console.log(0);
+    //     $.ajax({
+    //         url: "inc/engine.php",
+    //         success: function(data) {
+    //             console.log(data);
+    //         }
+    //     });
+    // })
 
 });

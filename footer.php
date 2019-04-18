@@ -16,9 +16,9 @@
 				<div class="col-sm-12 col-md-4 social-share">
 					<span class="blue">Redes Sociais:</span>
 					<div class="container-social">
-						<a href="facebook" class="facebook light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/facebook.png" alt=""></a>
-						<a href="facebook" class="instagram light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/instagram.png" alt=""></a>
-						<a href="facebook" class="youtube light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/youtube.png" alt=""></a>
+						<a href="https://facebook.com/eugabaritandoenem" class="facebook light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/facebook.png" alt=""></a>
+						<a href="https://www.instagram.com/eugabaritandoenem/" class="instagram light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/instagram.png" alt=""></a>
+						<a href="https://www.youtube.com/channel/UCoHdAfpgOR-5oBUujXYjyhg" class="youtube light-green"><img src="<?=get_template_directory_uri()?>/assets/images/icones_sociais/youtube.png" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 				</div>
 				
 				<div class="col-sm-12 col-md-4 about-3xceler">
-					<a href="http://3xceler.com.br" class="no-decorate" >
+					<a href="https://www.3xceler.com.br/criacao-de-sites" class="no-decorate" >
 						Criação de sites:
 						<img src="<?=get_template_directory_uri()?>/assets/images/logo_3xceler_branco.png" alt="3xceler Marketing Performance" title="3xceler Marketing Performance">
 					</a>
