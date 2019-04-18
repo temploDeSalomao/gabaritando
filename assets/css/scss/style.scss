@@ -752,6 +752,7 @@ main {
             margin-top: 30px;
             .outer-ticket {
                 position: relative;
+                padding:0 2px;
                 &:nth-of-type(odd) {
                     .price {
                         margin-top: 35px;
