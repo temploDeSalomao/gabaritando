@@ -952,11 +952,12 @@ main {
                             position: absolute;
                             top: 0;
                             border-radius: 10px;
-                            transition: all 4ms ease-in-out;
                             z-index: -1;
                             visibility: hidden;
                             opacity: 0;
                             background: linear-gradient(to top, #2c3997 15%, transparent);
+                            transition: all .10s ease-in-out;
+
                             &:after {
                                 content: "";
                                 position: absolute;
