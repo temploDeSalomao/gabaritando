@@ -23,6 +23,11 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
     }
 }
 
+.swiper-pagination-news{
+    position: absolute;
+    bottom: 0px !important;
+}
+
 @media (min-width: 990px) and (max-width: 1680px) {
     .logo {
         width: 850px;
@@ -65,7 +70,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 ul{
                     .square{
                         &:after{
-                            background-size: 90% 100%;
+                            background-size:cover;
                         }
                     }
                 }
@@ -450,6 +455,7 @@ $linearBlue: linear-gradient(to right, #44bfa9, #00b2d9);
                 }
                 .swiper-wrapper {
                     margin-bottom: 30px;
+                    min-height: 430px;
                 }
             }
             aside {

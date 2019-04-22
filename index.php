@@ -294,7 +294,7 @@
 			<div class="col-xs-12 col-md-3 outer-ticket last">
 				<div class=" ticket">
 					<p class="ticket-title blue bold">Enem Completo</p>
-					<span class="about-ticket"><b>Anual</b></span>
+					<span class="about-ticket"><b>Mensal</b> - Plus</span>
 					<ul>
 						<li><span>Aulas ao vivo;</span></li>
 						<li><span>32 Videoaulas / semana;</span></li>
@@ -409,7 +409,7 @@
 					<div class="col-xs-12 col-md-3 outer-ticket">
 						<div class="ticket">
 							<p class="ticket-title blue bold">Enem Completo</p>
-							<span class="about-ticket"><b>Anual</b></span>
+							<span class="about-ticket"><b>Anual</b> - Plus</span>>
 							<ul>
 								<li><span>Aulas ao vivo;</span></li>
 								<li><span>32 Videoaulas / semana;</span></li>
@@ -541,7 +541,8 @@
 					?>
 					<div class="swiper-item swiper-slide">
 						<div class="img-news">
-							<img src="<?=get_the_post_thumbnail_url()?>" alt="">
+							<img src="<?=get_the_post_thumbnail_url()?>" alt="" style="width: 195px;
+    height: 185px;">
 						</div>
 						<div class="content-news">
 							<span class="post-info">
@@ -565,7 +566,7 @@
 			
 		</div>
 	</section>
-	<div class="col-sm-12 col-md-12 hidden-md" >
+	<div class="col-sm-12 col-md-12 hidden-md hidden-sm" >
 		<div class="read-posts">
 			<a href="#">Ler todos os posts</a>
 		</div>
